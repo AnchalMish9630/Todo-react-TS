@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Heading = () => {
+    const [todo, setTodo] = useState("")
+    const handleTodo=()=>{
+        setTodo("")
+    }
   return (
-    <div>Heading</div>
-  )
+    <div>Add to do logic
+    <button onClick={()=>{handleTodo()}}>
+
+    </button>
+    </div>
+
+)
 }
