@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       {/* Navigation Links */}
       <ul className="flex gap-6">
         <li className="hover:text-gray-200 cursor-pointer">Home</li>
-        <li className="hover:text-gray-200 cursor-pointer">My Todos</li>
+       
         <li className="hover:text-gray-200 cursor-pointer">Completed</li>
       </ul>
 
