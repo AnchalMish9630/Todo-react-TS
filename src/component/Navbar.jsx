@@ -19,21 +19,23 @@ const Navbar: React.FC = () => {
 export default Navbar;
 
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-function ChipsInput() {
+// function ChipsInput() {
 
-  return (
-    <div style={{display:"flex", flexDirection:"column",          alignItems:"center", margin:"40px 0"}}>
-      <h2>Chips Input</h2>
-      <input
-        type="text"     
-        placeholder="Type a chip and press tag"
-        style={{ padding: "8px", width: "200px" }}
-      />
+//   return (
+//     <div style={{display:"flex", flexDirection:"column",          alignItems:"center", margin:"40px 0"}}>
+//       <h2>Chips Input</h2>
+//       <input
+//         type="text"     
+//         placeholder="Type a chip and press tag"
+//         style={{ padding: "8px", width: "200px" }}
+//       />
       
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default ChipsInput;
+// export default ChipsInput;
+
+
