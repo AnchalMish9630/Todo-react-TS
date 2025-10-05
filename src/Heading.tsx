@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 
 export const Heading = () => {
     const [todo, setTodo] = useState("")
-    const handleTodo=()=>{
-        setTodo(prev=> [..prev, todo])
-    }
+    // const handleTodo=()=>{
+    //     setTodo(prev=> [..prev, todo])
+    // }
   return (
     <div>Add to do logic
     <button onClick={()=>{handleTodo()}}>
